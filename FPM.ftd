@@ -1,9 +1,15 @@
 -- import: fpm
 
--- fpm.package: <user_name>.github.io/<repo_name>
-zip: github.com/<user_name>/<repo_name>/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/<user_name>/<repo_name>/main
+-- fpm.package: fifthtry.github.io/blue-sapphire-cs
+zip: github.com/fifthtry/blue-sapphire-cs/archive/refs/heads/main.zip
+base: https://raw.githubusercontent.com/fifthtry/blue-sapphire-cs/main
 
--- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/color-doc as cd
+-- fpm.dependency: fifthtry.github.io/package-doc as pd
 
--- fpm.auto-import: ds
+-- fpm.auto-import: pd
+-- fpm.auto-import: fpm
+-- fpm.auto-import: pd/typography as tf
+-- fpm.auto-import: pd/code-block as cb
+-- fpm.auto-import: pd/forest-theme as ft
+-- fpm.auto-import: fifthtry.github.io/blue-sapphire-cs/FPM/config
