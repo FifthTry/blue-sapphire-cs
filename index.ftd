@@ -98,16 +98,16 @@ color: $color
 
 
 -- ftd.color base-:
-light: #03045E
-dark: #03045E
+light: #4E61D0
+dark: #4E61D0
 
 -- ftd.color step-1-:
-light: #023E8A
-dark: #023E8A
+light: #F6F7FB
+dark: #F6F7FB
 
 -- ftd.color step-2-:
-light: #0077B6
-dark: #0077B6
+light: #EDEDED
+dark: #EDEDED
 
 -- ftd.background-colors background-:
 base: $base-
@@ -123,12 +123,12 @@ light: #CAF0F8
 dark: #CAF0F8
 
 -- ftd.color text-:
-light:  #ADE8F4
-dark:  #ADE8F4
+light:  #0A1A1F
+dark:  #0A1A1F
 
 -- ftd.color text-strong-:
-light: #CAF0F8
-dark: #CAF0F8
+light: #000000
+dark: #000000
 
 -- ftd.color shadow-:
 light: #143a44
@@ -159,12 +159,12 @@ light: #143a44
 dark: #143a44
 
 -- ftd.color cta-primary-border-:
-light: #49c4e4
-dark: #49c4e4
+light: #4540d9
+dark: #4540d9
 
 -- ftd.color cta-primary-text-:
-light: #52dcff
-dark: #52dcff
+light: #1813b8
+dark: #1813b8
 
 
 -- ftd.cta-colors cta-primary-:
