@@ -109,10 +109,20 @@ dark: #F6F7FB
 light: #EDEDED
 dark: #EDEDED
 
+-- ftd.color overlay-:
+light: rgba(0, 0, 0, 0.8)
+dark: rgba(0, 0, 0, 0.8)
+
+-- ftd.color code-:
+light: #2B303B
+dark: #2B303B
+
 -- ftd.background-colors background-:
 base: $base-
 step-1: $step-1-
 step-2: $step-2-
+overlay: $overlay-
+code: $code
 
 -- ftd.color border-:
 light: #ADE8F4
@@ -453,4 +463,3 @@ tertiary: $main
 surface: $main
 surface-alt: $main
 glass: $main
-
